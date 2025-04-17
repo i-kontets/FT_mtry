@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/scan.css">
 </head>
 <body>
-<form action="#" class="scan-form">
+<form action="#" class="scan_form">
     <label>
         <input type="text" placeholder="キーワードを入力">
     </label>
