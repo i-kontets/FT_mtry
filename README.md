@@ -31,3 +31,24 @@ class名には**完結に何用なのか**と"_"で結合する
         * deteil.js
         * deteil.php
 
+jsを読み込む場合はbodyの締めタグの直前に記述する
+``` html:sample
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>	
+     <meta charset="utf-8">
+     <title>サイトタイトル</title>
+     <meta name="description" content="サイトの概要を記載">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <script>
+        
+    </script>
+</body>
+</html>
+
+```
