@@ -59,3 +59,28 @@ jsを読み込む場合はbodyの締めタグの直前に記述する
 </html>
 
 ```
+
+データベース構築文例
+``` sql:sample
+
+--データベース構築
+CREATE DATABASE sample
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_general_ci;
+
+--ユーザー作成
+CREATE USER 'player'@'localhost' IDENTIFIED BY 'securepass123';
+
+--権限付与と権限反映
+GRANT ALL PRIVILEGS ON blog_db.* TO 'user'@'localhost';
+FLUSH PRIVILEGES;
+
+--使用するデータベースの選択
+USE　blog_db;
+
+--テーブル作成
+CREATE TABLE sample(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) not null,
+    content text not null
+);
