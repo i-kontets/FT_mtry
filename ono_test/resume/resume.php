@@ -174,7 +174,7 @@
             </div>
             <div style="position:absolute;top:77mm;left:22mm;width:152.2mm;height:11.5mm">
                 <font class="idx">
-                    連絡先　〒
+                    連絡先　〒 
                 </font>
                 <font class="furix">
                     a
