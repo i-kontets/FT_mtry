@@ -46,7 +46,14 @@ jsを読み込む場合はbodyの締めタグの直前に記述する
 
 
     <script>
-        
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav') && !e.target.closest('.hamburger') && nav.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            nav.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', false);
+            nav.setAttribute('aria-hidden', true);
+          }
+        });
     </script>
 </body>
 </html>
