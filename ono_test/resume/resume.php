@@ -177,7 +177,7 @@
                     連絡先　〒 
                 </font>
                 <font class="furix">
-                    a
+                    aaaaaa
                 </font>
             </div>
             <div style="position:absolute;top:84mm;left:23mm;width:152mm;height:11.5mm">
