@@ -8,6 +8,7 @@
 </head>
 <body>
     <main>
+        <!-- 左側 -->
         <div class="r_main_left">
             <div class="r_photo">
             </div>
@@ -46,7 +47,7 @@
                 </font>
             </div>
             <!-- 名前 -->
-            <div style="position:absolute;top:31mm;left:21mm;width:88.5mm;height:16.5mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+            <div style="position:absolute;top:31mm;left:21mm;width:99.8mm;height:16.5mm;border-width:0.2mm 0.5mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
             <div style="position:absolute;top:32mm;left:22mm;width:88.5mm;height:16.5mm">
                 <font class="idx">
                     氏　　名
@@ -58,14 +59,14 @@
                 </font>
             </div>
             <!-- 印鑑 -->
-            <div style="position:absolute;top:31mm;left:109mm;width:12mm;height:16.5mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            <!-- <div style="position:absolute;top:31mm;left:109mm;width:12mm;height:16.5mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
             <div style="position:absolute;top:32mm;left:110mm;width:12mm;height:16.5mm">
                 <font class="furi">
                     印
                 </font>
-            </div>
+            </div> -->
             <!-- 生年月日 -->
-            <div style="position:absolute;top:47mm;left:21mm;width:100mm;height:10mm;border-width:0.2mm 0.5mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+            <div style="position:absolute;top:47mm;left:21mm;width:99.8mm;height:10mm;border-width:0.2mm 0.5mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
             <div style="position:absolute;top:51mm;left:22mm;width:100mm;height:10mm">
                 <font class="idx">
                     生年月日　
@@ -110,7 +111,7 @@
                     a
                 </font>
             </div>
-            <div style="position:absolute;top:62mm;left:21mm;width:120mm;height:11.5mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid none solid solid"></div>
+            <div style="position:absolute;top:62mm;left:21mm;width:120mm;height:11mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid none solid solid"></div>
             <div style="position:absolute;top:60mm;left:22mm;width:120mm;height:11.5mm">
                 <font class="idx">
                     現住所　〒
@@ -125,8 +126,8 @@
                 </font>
             </div>
             <!-- 電話番号 -->
-            <div style="position:absolute;top:56.7mm;left:120.4mm;width:52.6mm;height:5mm;border-width:0.5mm 0.2mm 0.2mm 0.2mm;border-style:solid solid none none"></div>
-            <div style="position:absolute;top:56.7mm;left:141mm;width:32mm;height:5.5mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            <div style="position:absolute;top:56.9mm;left:121.5mm;width:52.3mm;height:5mm;border-width:0.5mm 0.2mm 0.2mm 0.2mm;border-style:solid solid none none"></div>
+            <div style="position:absolute;top:56.9mm;left:141mm;width:32.5mm;height:4.8mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
             <div style="position:absolute;top:56mm;left:142mm;width:32mm;height:5.5mm">
                 <font class="idx">
                     電話市外(　　　　)
@@ -137,13 +138,13 @@
                     a
                 </font>
             </div>
-            <div style="position:absolute;top:62.0mm;left:141mm;width:32mm;height:5.5mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid;text-align:center"></div>
+            <div style="position:absolute;top:62.0mm;left:141mm;width:32.5mm;height:5.5mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid;text-align:center"></div>
             <div style="position:absolute;top:62mm;left:141mm;width:32mm;height:5.5mm;text-align:center">
                 <font class="furix">
                     a&nbsp;－&nbsp;a
                 </font>
             </div>
-            <div style="position:absolute;top:67.3mm;left:141mm;width:32mm;height:6mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            <div style="position:absolute;top:67.3mm;left:141mm;width:32.5mm;height:6mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
             <div style="text-align:center;position:absolute;top:67mm;left:141mm;width:32mm;height:6mm">
                 <font class="idx">
                     (　　　　　　方呼出)
@@ -203,20 +204,19 @@
                     月
                 </font>
             </div>
-            <div style="text-align:center;vertical-align:middle;position:absolute;top:92mm;left:45mm;width:128mm;height:7.1mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            <div style="text-align:center;vertical-align:middle;position:absolute;top:92mm;left:45mm;width:128.5mm;height:7.1mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
             <div style="text-align:center;vertical-align:middle;position:absolute;top:94mm;left:45mm;width:128mm;height:7.1mm">
                 <font class="idx">
                     学歴・職歴(各別まとめて書く)
                 </font>
             </div>
             <?php
-            
             $data=99;
             for ($i=0; $i < 15; $i++) { 
                 echo <<< HTML
                 <div style="text-align:center;position:absolute;top:{$data}mm;left:21mm;width:16.4mm;height:9.2mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
                 <div style="text-align:center;vertical-align:middle;position:absolute;top:{$data}mm;left:37mm;width:8.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
-                <div style="text-align:center;vertical-align:middle;position:absolute;top:{$data}mm;left:45mm;width:128mm;height:9.2mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+                <div style="text-align:center;vertical-align:middle;position:absolute;top:{$data}mm;left:45mm;width:128.5mm;height:9.2mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
                 HTML;
                 $data+=9;
             }
@@ -238,16 +238,209 @@
             </div>
             <div style="text-align:center;position:absolute;top:234mm;left:21mm;width:16.4mm;height:9.2mm;border-width:0.2mm 0.2mm 0.5mm 0.5mm;border-style:solid solid solid solid"></div>
             <div style="text-align:center;vertical-align:middle;position:absolute;top:234mm;left:37mm;width:8.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.5mm 0.2mm;border-style:solid solid solid solid"></div>
-            <div style="text-align:center;vertical-align:middle;position:absolute;top:234mm;left:45mm;width:128mm;height:9.2mm;border-width:0.2mm 0.5mm 0.5mm 0.2mm;border-style:solid solid solid solid"></div>
+            <div style="text-align:center;vertical-align:middle;position:absolute;top:234mm;left:45mm;width:128.5mm;height:9.2mm;border-width:0.2mm 0.5mm 0.5mm 0.2mm;border-style:solid solid solid solid"></div>
             <div style="position:absolute;top:243.1mm;left:21mm;width:125mm;height:8mm">
                 <font class="pic">
                     記入注意　　数字はアラビア数字で、半角２文字または全角１文字で収める
                 </font>
             </div>
-
         </div>
+        <!-- 右側 -->
         <div class="r_main_right">
+        <div style="text-align:center;position:absolute;top:20mm;left:200mm;width:16.2mm;height:7.1mm;border-width:0.5mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="text-align:center;position:absolute;top:22mm;left:200mm;width:16.2mm;height:7.1mm\">
+            <font class="idx">
+                年
+            </font>
         </div>
+        <div style="text-align:center;;position:absolute;top:20mm;left:216.5mm;width:8.4mm;height:7.1mm;border-width:0.5mm 0.2mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="text-align:center;position:absolute;top:22mm;left:216.5mm;width:8.4mm;height:7.1mm\">
+            <font class="idx">
+                月
+            </font>
+        </div>
+        <div style="text-align:center;position:absolute;top:20mm;left:225mm;width:128mm;height:7.1mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="text-align:center;position:absolute;top:22mm;left:225mm;width:128mm;height:7.1mm\">
+            <font class="idx">
+                免 許・資 格
+            </font>
+        </div>
+        <?php
+        $top=27;
+        for ($i=0; $i < 5; $i++) { 
+            echo <<< HTML
+            <div style="text-align:center;position:absolute;top:{$top}mm;left:200mm;width:16.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+            <div style="text-align:center;position:absolute;top:{$top}mm;left:216.5mm;width:8.4mm;height:9.2mm;border-width:0.2mm 0.2mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            <div style="text-align:center;position:absolute;top:{$top}mm;left:225mm;width:128mm;height:9.2mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+            HTML;
+            $top+=9;
+        }
+        ?>
+        <div style="position:absolute;top:28mm;left:200mm;width:20mm;height:52mm">
+            <font class="textlist">
+                平成12<br> <br><br><br><br><br>
+            </font>
+        </div>
+        <div style="text-align:center;position:absolute;top:28mm;left:216.5mm;width:8mm;height:52mm">
+            <font class="textlist">
+                12<br> <br><br><br><br><br>
+            </font>
+        </div>
+        <div style="position:absolute;top:28mm;left:225mm;width:126mm;height:52mm">
+            <font class="textlist">
+                第一種普通自動車免許取得<br>msdkv <br>adv
+            </font>
+        </div>
+        <div style="text-align:center;position:absolute;top:72mm;left:200mm;width:16.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.5mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="text-align:center;position:absolute;top:72mm;left:216.5mm;width:8.4mm;height:9.2mm;border-width:0.2mm 0.2mm 0.5mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="text-align:center;position:absolute;top:72mm;left:225mm;width:128mm;height:9.2mm;border-width:0.2mm 0.5mm 0.5mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:82mm;left:200mm;width:76.1mm;height:36.2mm;border-width:0.5mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:83mm;left:201mm;width:76.1mm;height:37.2mm">
+            <font class="idx">
+                得意な科目・分野
+            </font>
+        </div>
+        <div style="position:absolute;top:84mm;left:198mm;width:76mm;height:36mm">
+            <table border="0" width="100%" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table width="80%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <font class="textlist">
+                                                a<br>b<br>c<br>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="position:absolute;top:82mm;left:276.5mm;width:76.1mm;height:36.2mm;border-width:0.5mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:83mm;left:277mm;width:76.1mm;height:37.2mm">
+            <font class="idx">
+                健康状態
+            </font>
+        </div>
+        <div style="position:absolute;top:84mm;left:277mm;width:76mm;height:36mm">
+            <table width="100%" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table width="80%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <font class="textlist">
+                                                a<br><br><br>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="position:absolute;top:118mm;left:200mm;width:76.1mm;height:36.2mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:119mm;left:201mm;width:76.1mm;height:36.2mm\">
+            <font class="idx">
+                スポーツ・クラブ活動・文化活動など
+            </font>
+        </div>
+        <div style="position:absolute;top:120mm;left:198mm;width:76.1mm;height:36.2mm">
+            <table border="0" width="100%" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table width="80%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <font class="textlist">
+                                                a<br><br><br>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="position:absolute;top:118mm;left:276.5mm;width:76.1mm;height:36.2mm;border-width:0.2mm 0.5mm 0.2mm 0.2mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:119mm;left:277mm;width:76.1mm;height:36.2mm\">
+            <font class="idx">
+                趣味・特技
+            </font>
+        </div>
+        <div style="position:absolute;top:120mm;left:277mm;width:76.1mm;height:36.2mm">
+            <table border="0" width="100%" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table width="80%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <font class="textlist">
+                                                a<br><br><br>
+                                            </font>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="position:absolute;top:154mm;left:200mm;width:152.3mm;height:35.3mm;border-width:0.2mm 0.5mm 0.5mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="position:absolute;top:153mm;left:201mm;width:152.1mm;height:35.3mm\">
+            <font class="idx">
+                志望の動機
+            </font>
+        </div>
+        <div style="position:absolute;top:154mm;left:201mm;width:152.1mm;height:35.3mm">
+            <table border="0" width="100%" height="100%" cellpadding="16">
+                <tbody>
+                    <tr>
+                        <td valign="top">
+                            <font class="textlist3">
+                                a<br><br><br><br><br><br>
+                            </font>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="z-index:-10;position:absolute;top:189mm;left:200mm;width:152.1mm;height:56mm;border-width:0.2mm 0.5mm 0.5mm 0.5mm;border-style:solid solid solid solid"></div>
+        <div style="z-index:-10;position:absolute;top:190mm;left:201mm;width:152.1mm;height:56mm\">
+            <font class="idx">
+                本人希望記入欄（特に給料・職種・勤務時間・勤務地・その他について希望があれば記入）
+            </font>
+        </div>
+        <div style="z-index:-10;position:absolute;top:189mm;left:202mm;width:152.1mm;height:56mm">
+            <table border="0" width="100%" height="100%" cellpadding="16">
+                <tbody>
+                    <tr>
+                        <td valign="top">
+                            <font class="textlist3">
+                                a<br><br><br><br><br><br><br><br><br><br>
+                            </font>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     </main>
 </body>
 </html>
