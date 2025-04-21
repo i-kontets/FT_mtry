@@ -7,43 +7,6 @@
     <link rel="stylesheet" href="css/resume.css">
 </head>
 <body>
-    <?php
-        $name = $_REQUEST["name"];
-        $name_huri = $_REQUEST["name_huri"];
-        $post_number = $_REQUEST["post_number"];
-        $post = $_REQUEST['post'];
-        $post_name = $_REQUEST["post_name"];
-        $gaku1 = isset($_REQUEST["gaku1"]) ? $_REQUEST["gaku1"] : '';
-        $gaku2 = isset($_REQUEST["gaku2"]) ? $_REQUEST["gaku2"] : '';
-        $gaku3 = isset($_REQUEST["gaku3"]) ? $_REQUEST["gaku3"] : '';
-        $gaku4 = isset($_REQUEST["gaku4"]) ? $_REQUEST["gaku4"] : '';
-        $gaku5 = isset($_REQUEST["gaku5"]) ? $_REQUEST["gaku5"] : '';
-        $gaku6 = isset($_REQUEST["gaku6"]) ? $_REQUEST["gaku6"] : '';
-        $gaku7 = isset($_REQUEST["gaku7"]) ? $_REQUEST["gaku7"] : '';
-        $gaku8 = isset($_REQUEST["gaku8"]) ? $_REQUEST["gaku8"] : '';
-        $gaku9 = isset($_REQUEST["gaku9"]) ? $_REQUEST["gaku9"] : '';
-        $gaku10 = isset($_REQUEST["gaku10"]) ? $_REQUEST["gaku10"] : '';
-        $gaku11 = isset($_REQUEST["gaku11"]) ? $_REQUEST["gaku11"] : '';
-        $gaku12 = isset($_REQUEST["gaku12"]) ? $_REQUEST["gaku12"] : '';
-        $gaku13 = isset($_REQUEST["gaku13"]) ? $_REQUEST["gaku13"] : '';
-        $gaku14 = isset($_REQUEST["gaku14"]) ? $_REQUEST["gaku14"] : '';
-        $gaku15 = isset($_REQUEST["gaku15"]) ? $_REQUEST["gaku15"] : '';
-        $gaku16 = isset($_REQUEST["gaku16"]) ? $_REQUEST["gaku16"] : '';
-        $sikaku1 = isset($_REQUEST["sikaku"]) ? $_REQUEST["sikaku"] : '';
-        $sikaku2 = isset($_REQUEST["sikaku2"]) ? $_REQUEST["sikaku2"] : '';
-        $sikaku3 = isset($_REQUEST["sikaku3"]) ? $_REQUEST["sikaku3"] : '';
-        $sikaku4 = isset($_REQUEST["sikaku4"]) ? $_REQUEST["sikaku4"] : '';
-        $sikaku5 = isset($_REQUEST["sikaku5"]) ? $_REQUEST["sikaku5"] : '';
-        $sikaku6 = isset($_REQUEST["sikaku6"]) ? $_REQUEST["sikaku6"] : '';
-        $kamoku1 = isset($_REQUEST["kamoku"]) ? $_REQUEST["kamoku"] : '';
-        $kamoku2 = isset($_REQUEST["kamoku2"]) ? $_REQUEST["kamoku2"] : '';
-        $kamoku3 = isset($_REQUEST["kamoku3"]) ? $_REQUEST["kamoku3"] : '';
-        $kenkou = isset($_REQUEST["kenkou"]) ? $_REQUEST["kenkou"] : '';
-        $sports = isset($_REQUEST["sports"]) ? $_REQUEST["sports"] : '';
-        $syumi = isset($_REQUEST["syumi"]) ? $_REQUEST["syumi"] : '';
-        
-        
-    echo <<< HTML
     <main>
         <div id="capture">
             <!-- 左側 -->
@@ -69,7 +32,7 @@
                 </div>
                 <div style="position:absolute;top:25mm;left:21mm;width:88.5mm;height:5.2mm;text-align:center">
                     <font class="furix3">
-                        $name_huri
+                        a
                     </font>
                 </div>
                 <!-- 性別 -->
@@ -93,7 +56,7 @@
                 </div>
                 <div style="position:absolute;top:36mm;left:21mm;width:88.5mm;height:16.5mm;text-align:center">
                     <font class="shimei">
-                        $name
+                        a
                     </font>
                 </div>
                 <!-- 印鑑 -->
@@ -146,7 +109,7 @@
                 </div>
                 <div style="position:absolute;top:55.5mm;left:40mm;width:100mm;height:5mm">
                     <font class="furix2">
-                        $post_name
+                        a
                     </font>
                 </div>
                 <div style="position:absolute;top:62mm;left:21mm;width:120mm;height:11mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid none solid solid"></div>
@@ -155,12 +118,12 @@
                         現住所　〒
                     </font>
                     <font class="furix">
-                        $post_number
+                        a
                     </font>
                 </div>
                 <div style="position:absolute;top:67.5mm;left:23mm;width:120mm;height:11.5mm">
                     <font class="adr">
-                        $post
+                        a
                     </font>
                 </div>
                 <!-- 電話番号 -->
@@ -248,8 +211,7 @@
                         学歴・職歴(各別まとめて書く)
                     </font>
                 </div>
-    HTML;
-                
+                <?php
                 $data=99;
                 for ($i=0; $i < 15; $i++) { 
                     echo <<< HTML
@@ -259,11 +221,10 @@
                     HTML;
                     $data+=9;
                 }
-        echo <<< HTML
-                
+                ?>
                 <div style="position:absolute;top:99.8mm;left:46mm;width:125.8mm;height:143mm;">
                     <font class="textlist">
-                    $gaku1<br> $gaku2<br>$gaku3<br>$gaku4<br>$gaku5<br>$gaku6<br>$gaku7<br>$gaku8<br>$gaku9<br>$gaku10<br>$gaku11<br>$gaku12<br>$gaku13<br>$gaku14<br>$gaku15<br>$gaku16<br>
+                        a<br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     </font>
                 </div>
                 <div style="position:absolute;top:99.8mm;left:22mm;width:20mm;height:143mm;z-index:-1">
@@ -305,9 +266,8 @@
                     免 許・資 格
                 </font>
             </div>
-            HTML;
+            <?php
             $top=27;
-        
             for ($i=0; $i < 5; $i++) { 
                 echo <<< HTML
                 <div style="text-align:center;position:absolute;top:{$top}mm;left:200mm;width:16.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.2mm 0.5mm;border-style:solid solid solid solid"></div>
@@ -316,7 +276,7 @@
                 HTML;
                 $top+=9;
             }
-echo <<< HTML
+            ?>
             <div style="position:absolute;top:28mm;left:200mm;width:20mm;height:52mm">
                 <font class="textlist">
                     平成12<br> <br><br><br><br><br>
@@ -329,7 +289,7 @@ echo <<< HTML
             </div>
             <div style="position:absolute;top:28mm;left:225mm;width:126mm;height:52mm">
                 <font class="textlist">
-                    $sikaku1<br>$sikaku2<br>$sikaku3<br>$sikaku4<br>$sikaku5<br>$sikaku6
+                    第一種普通自動車免許取得<br>msdkv <br>adv
                 </font>
             </div>
             <div style="text-align:center;position:absolute;top:72mm;left:200mm;width:16.2mm;height:9.2mm;border-width:0.2mm 0.2mm 0.5mm 0.5mm;border-style:solid solid solid solid"></div>
@@ -351,7 +311,7 @@ echo <<< HTML
                                         <tr>
                                             <td>
                                                 <font class="textlist">
-                                                    $kamoku1<br>$kamoku2<br>$kamoku3<br>
+                                                    a<br>b<br>c<br>
                                                 </font>
                                             </td>
                                         </tr>
@@ -378,7 +338,7 @@ echo <<< HTML
                                         <tr>
                                             <td>
                                                 <font class="textlist">
-                                                    $kenkou<br><br><br>
+                                                    a<br><br><br>
                                                 </font>
                                             </td>
                                         </tr>
@@ -405,7 +365,7 @@ echo <<< HTML
                                         <tr>
                                             <td>
                                                 <font class="textlist">
-                                                    $sports<br><br><br>
+                                                    a<br><br><br>
                                                 </font>
                                             </td>
                                         </tr>
@@ -432,7 +392,7 @@ echo <<< HTML
                                         <tr>
                                             <td>
                                                 <font class="textlist">
-                                                    $syumi<br><br><br>
+                                                    a<br><br><br>
                                                 </font>
                                             </td>
                                         </tr>
@@ -485,9 +445,6 @@ echo <<< HTML
     </div>
     <button onclick="captureH1()">画像として保存</button>
     </main>
-HTML;
-?>
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
