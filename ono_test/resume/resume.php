@@ -443,7 +443,7 @@
             </div>
         </div>
     </div>
-    <button onclick="captureH1()">画像として保存</button>
+    <button onclick="captureH1()">dv.v画像として保存</button>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
